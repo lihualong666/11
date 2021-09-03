@@ -20,6 +20,7 @@ class TestSetting(object):
         self.page= Page(self.driver)
 
     # 结束测试类
+    # 123456
     def teardown(self):
         self.driver.quit()
 
