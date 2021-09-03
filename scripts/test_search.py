@@ -29,6 +29,7 @@ class TestSetting(object):
         self.page.display_page.click_search_btn()
         self.page.search_page.input_search_bar('hello')
         self.page.search_page.click_back_btn()
+        print('测试Git，Jenkins持续集成')
 
 
 
